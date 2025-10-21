@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suriya | Futuristic Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand glow-text" href="#">SURIYA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero d-flex align-items-center py-5">
+  <div class="container" data-aos="fade-up">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-4 fw-bold glow-text">Hi, I'm Suriya</h1>
+        <p class="lead text-light">Full-Stack Developer | Designer | Tech Enthusiast</p>
+        <a href="#projects" class="btn btn-outline-light btn-lg mt-3 glow-btn">Explore My Work</a>
+        <a href="https://drive.google.com/file/d/17lhEUdAjBbPfhj3i-L96KdexykCRG14y/view?usp=sharing" download class="btn btn-success btn-lg mt-3">Download CV</a>
+
+      </div>
+      <div class="col-md-6 text-center">
+  <div class="profile-wrapper">
+    <img src="me.jpg\mine.jpeg" alt="Suriya" class="hero-img">
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="py-5 text-center">
+    <div class="container" data-aos="fade-right">
+      <h2 class="mb-4 glow-text">About Me</h2>
+      <p class="text-light mx-auto" style="max-width: 700px;">
+        I'm a passionate developer who loves blending creativity with technology.
+        I specialize in front-end and back-end development using HTML, CSS, JS, and PHP.
+        My goal is to create digital experiences that feel alive and futuristic.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+   <div class="col-md-4" data-aos="zoom-in">
+  <div class="card project-card h-100">
+    <img src="data:image/png;base64,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" class="card-img-top" alt="Project 1">
+    <div class="card-body">
+      <h5 class="card-title">E-Voting System</h5>
+      <p class="card-text">Secure online voting system using PHP & MySQL for college elections.</p>
+      <!-- View Button triggers modal -->
+      <button type="button" class="btn btn-primary glow-btn" data-bs-toggle="modal" data-bs-target="#project1Modal">
+        View
+      </button>
+    </div>
+  </div>
+</div>
+<!-- Modal for E-Voting System -->
+<div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="project1ModalLabel">E-Voting System</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Tech Stack:</strong>HTML CSS JS for a front end PHP for a backend, MySQL is a database for a role</p>
+        <p>This student e-voting project includes:</p>
+        <ul>
+          <li>Role-based login for Admin & Voter</li>
+          <li>OTP registration for voters</li>
+          <li>Poll creation interface for Admin</li>
+          <li>Voter dashboard to cast votes</li>
+          <li>Real-time result display and feedback system</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/Suriyaprabha18/Students-E-voting-system-.git" target="_blank" class="btn btn-outline-light">View Repo</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 text-center">
+    <div class="container" data-aos="fade-up">
+      <h2 class="mb-4 glow-text">Contact Me</h2>
+      <p class="text-light">Let’s connect and build something amazing together!</p>
+      <a href="mailto:suriya@example.com" class="btn btn-outline-light glow-btn">Say Hello</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 mt-4 border-top border-secondary">
+    <p class="text-light mb-0">© 2025 Suriya prabha N |</p>
+  </footer>
+
+  <!-- Bootstrap JS + AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true,
+    });
+  </script>
+</body>
+</html>
